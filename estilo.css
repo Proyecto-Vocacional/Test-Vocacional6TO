@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+header{
+	width: 100%;
+    height: 700px;
+    background-image: url(headphone-desk-notebook-computer.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+header .textos{
+	margin-top: 152px;
+}
+
+header .titulo{
+	font-size: 85px;
+}
+
+header .subtitulo{
+font-size: 42px;
+font-weight: 300;
+margin-bottom: 32px;
+}
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+li{
+    display: flex;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+p{
+    float: left; 
+    max-width: 750px;
+	margin: auto;
+	padding: 20px;
+    max-width: justify;
+}
+
+
