@@ -18,6 +18,8 @@ var modal3 = document.getElementById("modal3");
 var modal4 = document.getElementById("modal4");
 
 let sound  = new Audio('Audio-de-mati.mp3');
+let Esound  = new Audio('y2mate.com - Cyberpunk 2077 music_320kbps (mp3cut.net).mp3');
+let Xsound  = new Audio('megaman-x-error.mp3');
 
 
 btnCerrar.addEventListener("click",()=>{
@@ -122,9 +124,9 @@ construcciones2 = Math.trunc(construcciones);
 
 	////////////////////////
 	if(contador<10){
-		document.getElementById("resultadoFin4").innerHTML = "Primero realiza todas las preguntas porfavor";
+		document.getElementById("resultadoFin4").innerHTML = "Primero realiza todas las preguntas porfavor :)";
 	boolean = 1;
-
+	Xsound.play();
 	modal4.showModal();
 
 		
@@ -143,7 +145,7 @@ if(boolean == 0){
 	if(electronica > mecanica && electronica > construcciones ){
 		
 			modal.showModal();
-
+			Esound.play();
 		
 
 		document.getElementById("resultadoFin").innerHTML = "Electronica";

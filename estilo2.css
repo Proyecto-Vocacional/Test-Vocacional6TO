@@ -1,26 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-*{
+
+* {
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-header{
+
+header {
 	text-align: center;
 	background: #000;
 	color: #fff;
-	padding: 10px 0;
+	padding: 10px;
+	border-radius: 10px;
 }
-.container{
+
+.container {
 	max-width: 700px;
 	margin: auto;
 	padding: 20px;
 }
-section{
+
+section {
 	border: 2px solid #5624d0;
 	border-radius: 7px;
 	padding: 10px;
 	margin: 10px 0;
 }
-label{
+
+label {
 	display: block;
 	padding: 7px;
 	border-radius: 7px;
@@ -28,7 +34,8 @@ label{
 	border: 1px dashed #ccc;
 	margin-bottom: 3px;
 }
-label:hover{
+
+label:hover {
 	background: #cec0fc;
 }
 
@@ -36,9 +43,9 @@ label:hover{
 
 
 
-#btn-abrir{
-	width:80%,
-	display block;
+#btn-abrir {
+	width: 80%,
+		display block;
 	margin: auto;
 	padding: 10px;
 
@@ -47,14 +54,15 @@ label:hover{
 	cursor: pointer;
 	border-radius: 20px;
 }
-#btn-abrir:hover{
+
+#btn-abrir:hover {
 	background: #000;
 	color: #fff;
 }
 
-#btn-cerrar4{
-	width:80%,
-	display block;
+#btn-cerrar4 {
+	width: 80%,
+		display block;
 	margin-left: 30ch;
 	padding: 10px;
 
@@ -63,14 +71,15 @@ label:hover{
 	cursor: pointer;
 	border-radius: 20px;
 }
-#btn-cerrar4:hover{
+
+#btn-cerrar4:hover {
 	background: #000;
 	color: #fff;
 }
 
-#btn-cerrar2{
-	width:80%,
-	display block;
+#btn-cerrar2 {
+	width: 80%,
+		display block;
 	margin-left: 30ch;
 	padding: 10px;
 
@@ -79,16 +88,17 @@ label:hover{
 	cursor: pointer;
 	border-radius: 20px;
 }
-#btn-cerrar2:hover{
+
+#btn-cerrar2:hover {
 	background: #000;
 	color: #fff;
 }
 
-#btn-cerrar3{
+#btn-cerrar3 {
 	position: relative;
 	right: auto;
-	width:80%,
-	display block;
+	width: 80%,
+		display block;
 	margin-left: 65%;
 	top: 30%;
 	padding: 10px;
@@ -98,14 +108,15 @@ label:hover{
 	cursor: pointer;
 	border-radius: 20px;
 }
-#btn-cerrar3:hover{
+
+#btn-cerrar3:hover {
 	background: #000;
 	color: #fff;
 }
 
-#btn-cerrar{
-	width:80%,
-	display block;
+#btn-cerrar {
+	width: 80%,
+		display block;
 	margin-left: 30ch;
 	padding: 10px;
 
@@ -114,7 +125,8 @@ label:hover{
 	cursor: pointer;
 	border-radius: 20px;
 }
-#btn-cerrar:hover{
+
+#btn-cerrar:hover {
 	background: #000;
 	color: #fff;
 }
@@ -129,45 +141,50 @@ label:hover{
 
 
 
-h2{
+h2 {
 	text-align: center;
 }
-#resultado{
+
+#resultado {
 	font-size: 30px;
 	color: blue;
 }
-#resultado2{
+
+#resultado2 {
 	font-size: 30px;
 	color: blue;
 }
-#resultado3{
+
+#resultado3 {
 	font-size: 30px;
 	color: blue;
 }
 
 /*MODAL*/
 
-.popTitle{
+.popTitle {
 	text-align: center;
 
 }
 
-#modal::backdrop{
-background-color: rgba(0, 0, 0, 0.55);
+#modal::backdrop {
+	background-color: rgba(0, 0, 0, 0.55);
 
 }
-/*
+
+
 #modal{
 	max-width: 50ch ;
 	background-image:url(electronica.jpg);
 	color: white;
-}*/
+}
 
-#modal2::backdrop{
+#modal2::backdrop {
 	background-color: rgba(0, 0, 0, 0.55);
-	
-	}
-	/*
+
+}
+
+
 	#modal2{
 		max-width: 50ch ;
 		height: 60%;
@@ -175,17 +192,55 @@ background-color: rgba(0, 0, 0, 0.55);
 		color: white;
 	}*/
 
-	#moda3::backdrop{
-		background-color: rgba(0, 0, 0, 0.55);
-		
-		}
-		
-		#modal3{
-			width:40%;
-			height:40%;
-			background-image:url(has.jpg);
-			background-repeat: no-repeat;
-			background-position: 50%;
-			background-position-y: top;
-			color: white;
-		}
+#modal3::backdrop {
+	background-color: rgba(0, 0, 0, 0.55);
+
+}
+
+#modal3 {
+	width: 40%;
+	height: 40%;
+	background-image: url(has.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-position-y: top;
+	color: white;
+}
+
+
+#modal4::backdrop {
+	background-color: rgba(0, 0, 0, 0.55);
+
+}
+
+#modal4 {
+	max-width: 600px;
+	max-height: 600px;
+	
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-position-y: top;
+	color: white;
+	background-color: darkslateblue;
+	padding: 20px;
+
+}
+
+
+
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+
+}
+
+a:hover {
+	color: white;
+
+}
+
+#resultadoFin4 {
+
+	color: red;
+}
