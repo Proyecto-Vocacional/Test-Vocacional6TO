@@ -20,35 +20,37 @@ var modal4 = document.getElementById("modal4");
 let sound  = new Audio('Audio-de-mati.mp3');
 let Esound  = new Audio('y2mate.com - Cyberpunk 2077 music_320kbps (mp3cut.net).mp3');
 let Xsound  = new Audio('megaman-x-error.mp3');
+let Msound  = new Audio('y2mate.com - Cyberpunk 2077 music_320kbps (mp3cut.net).mp3');
 
 
 btnCerrar.addEventListener("click",()=>{
 	modal.close();
-
+	//Esound.volume = 0.5; 
+	Esound.currentTime = 16; 
 })
 
 btnCerrar2.addEventListener("click",()=>{
 	modal2.close();
-
+	Esound.pause();
 })
 
 btnCerrar3.addEventListener("click",()=>{
 	modal3.close();
-	
+	Esound.pause();	
 })
 
 btnCerrar4.addEventListener("click",()=>{
 	modal4.close();
-	
+	Esound.pause();
 })
 
 
 
-let correctasElec = [1,3,3,2,2,1,2,1,3,2];
+let correctasElec = [1,2,3,2,2,1,2,1,3,2];
 
-let correctasMec = [2,1,2,1,1,0,0,3,1,3];
+let correctasMec = [2,3,2,1,1,0,0,3,1,3];
 
-let correctasCons = [3,2,1,3,3,0,1,2,2,1];
+let correctasCons = [3,1,1,3,3,0,1,2,2,1];
 
 let opcion_elegida = [];
 
@@ -66,14 +68,14 @@ function respuesta(num_pregunta, seleccionada){
 
 	id= "p" + num_pregunta;
 
-	labels = document.getElementById(id).childNodes;
-	labels[3].style.backgroundColor = "white";
-	labels[5].style.backgroundColor = "white";
-	labels[7].style.backgroundColor = "white";
-	labels[9].style.backgroundColor = "white";
-	labels[11].style.backgroundColor = "white";
+	//labels = document.getElementById(id).childNodes;
+	//labels[3].style.backgroundColor = "white";
+	//labels[5].style.backgroundColor = "white";
+	//labels[7].style.backgroundColor = "white";
+	//labels[9].style.backgroundColor = "white";
+	//labels[11].style.backgroundColor = "white";
 
-	seleccionada.parentNode.style.backgroundColor = "#cec0fc";
+	//seleccionada.parentNode.style.backgroundColor = "#cec0fc";
  
 }
 

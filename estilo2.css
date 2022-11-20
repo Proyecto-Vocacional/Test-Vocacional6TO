@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	
 }
 
 header {
@@ -13,14 +14,23 @@ header {
 	border-radius: 10px;
 }
 
+body{
+
+	background-image: linear-gradient(to right,rgb(41, 31, 95),rgb(55, 46, 110),rgb(142, 130, 231));
+}
+
 .container {
 	max-width: 700px;
 	margin: auto;
 	padding: 20px;
+	color: azure;
 }
 
+
+
+
 section {
-	border: 2px solid #5624d0;
+	border: 2px solid #000000;
 	border-radius: 7px;
 	padding: 10px;
 	margin: 10px 0;
@@ -230,8 +240,10 @@ h2 {
 
 
 a {
+	text-shadow: ;
 	text-decoration: none;
 	font-weight: 600;
+	color: #000;
 
 }
 

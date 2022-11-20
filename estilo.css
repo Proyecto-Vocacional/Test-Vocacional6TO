@@ -32,6 +32,7 @@ margin-bottom: 32px;
 }
 
 .sesgoabajo {
+    
     z-index: 10;
     position: absolute;
     bottom: 0;
@@ -39,6 +40,8 @@ margin-bottom: 32px;
     border-width: 0 0 35vh 100vw;
     border-style: solid;
     border-color: transparent transparent #fff transparent;
+    
+
 }
 li{
     display: flex;
@@ -57,4 +60,7 @@ p{
     max-width: justify;
 }
 
+/*body{
+    background-image: linear-gradient(to right,rgb(41, 31, 95),rgb(55, 46, 110),rgb(142, 130, 231));
+}
 
