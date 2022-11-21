@@ -1,3 +1,10 @@
+$(document).ready(function (){
+    $('.btn-neon').on('click', function (e){
+        e.preventDefault();
+        corregir();
+    })
+})
+
 
 var btnAbrir = document.getElementById("btn-abrir");
 
@@ -17,10 +24,13 @@ var modal3 = document.getElementById("modal3");
 
 var modal4 = document.getElementById("modal4");
 
+
+
 let sound  = new Audio('Audio-de-mati.mp3');
 let Esound  = new Audio('y2mate.com - Cyberpunk 2077 music_320kbps (mp3cut.net).mp3');
 let Xsound  = new Audio('megaman-x-error.mp3');
 let Msound  = new Audio('y2mate.com - Cyberpunk 2077 music_320kbps (mp3cut.net).mp3');
+
 
 
 btnCerrar.addEventListener("click",()=>{
@@ -125,7 +135,7 @@ construcciones2 = Math.trunc(construcciones);
 
 
 	////////////////////////
-	if(contador<10){
+	/*if(contador<10){
 		document.getElementById("resultadoFin4").innerHTML = "Primero realiza todas las preguntas porfavor :)";
 	boolean = 1;
 	Xsound.play();
@@ -133,15 +143,15 @@ construcciones2 = Math.trunc(construcciones);
 
 		
 	
-		}
+		}*/
 
 		  
 if(boolean == 0){
 
 
-	document.getElementById("resultado").innerHTML = electronica2;
-	document.getElementById("resultado2").innerHTML = mecanica2;
-	document.getElementById("resultado3").innerHTML = construcciones2;
+	document.getElementById("resultado").innerHTML = electronica2 + "%";
+	document.getElementById("resultado2").innerHTML = mecanica2 + "%";
+	document.getElementById("resultado3").innerHTML = construcciones2 + "%";
 
 
 	if(electronica > mecanica && electronica > construcciones ){
@@ -151,8 +161,7 @@ if(boolean == 0){
 		
 
 		document.getElementById("resultadoFin").innerHTML = "Electronica";
-
-		
+	
 		
 		}
 	
@@ -180,6 +189,7 @@ if(boolean == 0){
 
 		
 }
+
 
 
 

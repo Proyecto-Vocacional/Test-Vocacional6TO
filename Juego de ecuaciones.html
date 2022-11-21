@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	
+
 	<header>
 		<h1>Test Vocacional</h1>
 		<p>¿Qué deberia escoger?</p>
@@ -148,20 +148,45 @@
 			</label>
 		</section>
 
-		<button onclick="corregir()" id="btn-abrir"> CORREGIR </button>
+		<!--<button onclick="corregir()" id="btn-abrir">
+			<span id="span1"></span>
+			<span id="span2"></span>
+			<span id="span3"></span>
+			<span id="span4"></span>
 
-		<dialog  id="modal">
+			CORREGIR </button>--->
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+		<a href="" id="btn" class="btn-neon">
+			<span id="span1"></span>
+			<span id="span2"></span>
+			<span id="span3"></span>
+			<span id="span4"></span>
+			Ver Resultado
+		</a>
+
+
+
+		<dialog id="modal">
 			<div id="capa">
-			<h2 class="popTitle">Te recomendamos:</h2>
+				<h2 class="popTitle">Te recomendamos:</h2>
 
-			<h2><span id="resultadoFin"></span></h2>
+				<h2><span id="resultadoFin"></span></h2>
 
-			<a id="enlace1" href="index.html">Ver mas informacion</a>
+				<a id="enlace1" href="index.html">Ver mas informacion</a>
 
-			<button id="btn-cerrar">Cerrar popup
-             
-			</button>
-		</div>
+
+				<button id="btn-cerrar">Cerrar popup
+
+				</button>
+
+				<div id="tag">Recordaque este </div>
+
+			</div>
+
 		</dialog>
 
 
@@ -211,23 +236,44 @@
 
 
 
-		<h2>electronica: <span id="resultado" %></span></h2>
-		<h2>electromecanica:<span id="resultado2" %></span></h2>
-		<h2>construcciones:<span id="resultado3" %></span></h2>
-	</div>
+		<div class="esp1">
+			<h2 class="asig">electronica: <span id="resultado"></span></h2>
 
-	<script src="script.js"></script>
+			<div class="barra">
+				<div class="progreso" ></div>
+			</div>
+
+		</div>
+
+		
+		<div >
+			<h2 class="asig">electromecanica: <span id="resultado2"></span></h2>
+
+			<div>
+				<h2 class="asig">construcciones: <span id="resultado3"></span></h2>
+
+			</div>
+
+		</div>
 
 
 
-	<footer>
-		<nav>
-			<ul>
-				<li><a href="index.html">inicio</a></li><br>
-				<li><a href="Juego de ecuaciones.html">Reiniciar Test</a></li><br>
-			</ul>
-		</nav>
-	</footer>
+
+		<script src="script.js"></script>
+
+
+
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="index.html">inicio</a></li><br>
+					<li><a href="Juego de ecuaciones.html">Reiniciar Test</a></li><br>
+				</ul>
+			</nav>
+		</footer>
+
+
+
 
 
 </body>
