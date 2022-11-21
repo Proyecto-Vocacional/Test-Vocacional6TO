@@ -3,7 +3,7 @@
 * {
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	
+
 }
 
 header {
@@ -14,9 +14,9 @@ header {
 	border-radius: 10px;
 }
 
-body{
+body {
 
-	background-image: linear-gradient(to right,rgb(41, 31, 95),rgb(55, 46, 110),rgb(142, 130, 231));
+	background-image: linear-gradient(to right, rgb(41, 31, 95), rgb(55, 46, 110), rgb(142, 130, 231));
 }
 
 .container {
@@ -183,10 +183,21 @@ h2 {
 }
 
 
-#modal{
-	max-width: 50ch ;
-	background-image:url(electronica.jpg);
+#modal {
+
+	width: 600px;
+	height: 300px;
 	color: white;
+	background-image: url(img/AnimatedMicrochip2-1.gif);
+	background-size: cover;
+
+}
+
+#capa {
+
+	padding: 10px;
+	margin: 10px 0;
+
 }
 
 #modal2::backdrop {
@@ -195,12 +206,12 @@ h2 {
 }
 
 
-	#modal2{
-		max-width: 50ch ;
-		height: 60%;
-		background-image:url(tdma.png);
-		color: white;
-	}*/
+#modal2 {
+	max-width: 50ch;
+	height: 60%;
+	background-image: url(tdma.png);
+	color: white;
+}
 
 #modal3::backdrop {
 	background-color: rgba(0, 0, 0, 0.55);
@@ -226,12 +237,13 @@ h2 {
 #modal4 {
 	max-width: 600px;
 	max-height: 600px;
-	
+
 	background-repeat: no-repeat;
 	background-position: 50%;
 	background-position-y: top;
 	color: white;
 	background-color: darkslateblue;
+
 	padding: 20px;
 
 }
@@ -240,7 +252,7 @@ h2 {
 
 
 a {
-	text-shadow: ;
+
 	text-decoration: none;
 	font-weight: 600;
 	color: #000;
@@ -255,4 +267,9 @@ a:hover {
 #resultadoFin4 {
 
 	color: red;
+}
+
+#enlace1 {
+	color: rgb(255, 255, 255);
+
 }
