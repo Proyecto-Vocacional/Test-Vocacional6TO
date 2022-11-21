@@ -135,7 +135,7 @@ construcciones2 = Math.trunc(construcciones);
 
 
 	////////////////////////
-	/*if(contador<10){
+	if(contador<10){
 		document.getElementById("resultadoFin4").innerHTML = "Primero realiza todas las preguntas porfavor :)";
 	boolean = 1;
 	Xsound.play();
@@ -143,7 +143,7 @@ construcciones2 = Math.trunc(construcciones);
 
 		
 	
-		}*/
+		}
 
 		  
 if(boolean == 0){
