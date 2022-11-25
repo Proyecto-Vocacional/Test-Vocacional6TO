@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Vocacional</title>
+	<link rel="stylesheet" type="text/css" href="estilo2.css">
+	<link rel="shortcut icon" href="ESCUDO 1080x1080.png">
+</head>
+
+<body>
+
+	<header>
+
+		<a class="btn-neonC">
+			
+			<span id="span-1"></span>
+			<span id="span-2"></span>
+			<span id="span-3"></span>
+			<span id="span-4"></span>
+			Test Vocacional
+		</a>
+
+	</header>
+
+<img src="Test-Vocacional6TO-main\ESCUDO 1080x1080.png" alt="">
+
+	<div class="container">
+		<section id="p0">
+			<h3>1- ¿En qué tipo de ambiente te interesaria trabajar?</h3>
+
+			<label class="xd">
+				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Personal y calmado (oficina)
+			</label>
+
+			<label class="xd">
+				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Pesado, ruidoso (fabrica-taller)
+			</label>
+			<label class="xd">
+				<input class="fea" type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Regulado y Abierto (aire libre)
+			</label>
+		</section>
+		<section id="p1">
+			<h3>2- ¿Te resulta agradable hacer planos?</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Si
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> No
+			</label>
+			<label class="xd">
+				<input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Mas o Menos
+			</label>
+		</section>
+
+		<section id="p2">
+			<h3>3- ¿Cuál de los siguientes elementos te llama más la atención analizar?</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> La estructura de un edificio
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> El funcionamiento de un motor
+			</label>
+			<label class="xd">
+				<input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> El funcionamiento de una
+				computadora/celular
+			</label>
+		</section>
+
+		<section id="p3">
+			<h3>4- ¿Qué opcion te puede interesar más a futuro?</h3>
+			<label class="xd">
+
+				<input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Mantenimiento correctivo y
+				preventivo de instalaciones y equipos
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Diseño y analisis de
+				sistemas/circuitos
+			</label>
+			<label class="xd">
+				<input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Diseño y planificacion de viviendas
+			</label>
+		</section>
+
+		<section id="p4">
+			<h3>5- ¿De qué manera resuelves tus problemas?</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Intuitiva
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Analitica
+			</label>
+			<label class="xd">
+				<input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Creativa
+			</label>
+		</section>
+
+		<section id="p5">
+			<h3>6- De chico/a¿Te gustaba desarmar tus juguetes y ver qué había dentro de ellos?</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> si
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> no
+
+		</section>
+
+		<section id="p6">
+			<h3>7- ¿Que haces cuando se descompone algún electrodoméstico en casa?</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> Lo llevo al servicio técnico
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> Trato de repararlo
+			</label>
+		</section>
+
+		<section id="p7">
+			<h3>8- ¿En cual de estas actividades crees te destacas?</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> editar videos y programas
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> concreto/mamposteria(poner
+				ladrillos)
+			</label>
+			<label class="xd">
+				<input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> diseñar, soldar y tornear
+			</label>
+		</section>
+
+		<section id="p8">
+			<h3>9- ¿Prefieres trabajar con máquinas, con personas o equipos informaticos?</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> Máquinas
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> Grupos de Personas
+			</label>
+			<label class="xd">
+				<input type="radio" value="3" name="p8" onclick="respuesta(8,this)"> Equipos informáticos
+			</label>
+		</section>
+
+		<section id="p9">
+			<h3>10- En la producción de una película, me gustaría participar en:</h3>
+			<label class="xd">
+				<input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> Diseño y construcción de
+				escenografía
+			</label>
+			<label class="xd">
+				<input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> Edición de sonido y digitalización
+			</label>
+			<label class="xd">
+				<input type="radio" value="3" name="p9" onclick="respuesta(9,this)"> Montaje de equipos, máquinas y
+				motoras
+			</label>
+		</section>
+
+		<section id="p10">
+			<h3>11- ¿Qué imagen te interesa mas?</h3>
+			<label class="img">
+				<input type="radio" value="1" name="p10" onclick="respuesta(10,this)"> <img src="electronica op.jpeg" width="150" height="150">
+			</label>
+			<label class="img">
+				<input type="radio" value="2" name="p10" onclick="respuesta(10,this)"> <img src="construcciones op.jpeg" width="150" height="150">
+			</label>
+			<label class="img">
+				<input type="radio" value="3" name="p10" onclick="respuesta(10,this)"> <img src="Estudiar-Ingenieria-Electromecanica-online.jpg" width="150" height="150">
+			</label>
+		</section>
+		<!--<button onclick="corregir()" id="btn-abrir">
+			<span id="span1"></span>
+			<span id="span2"></span>
+			<span id="span3"></span>
+			<span id="span4"></span>
+
+			CORREGIR </button>--->
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+		<a href="" id="btn" class="btn-neon">
+			<span id="span1"></span>
+			<span id="span2"></span>
+			<span id="span3"></span>
+			<span id="span4"></span>
+			Ver Resultado
+		</a>
+
+
+
+		<dialog id="modal">
+			<div id="capa">
+				<h2 class="popTitle">Te recomendamos:</h2>
+
+				<h2><span id="resultadoFin"></span></h2>
+
+				<a id="enlace1" href="Perfiles.html">Ver mas informacion</a>
+
+
+				<button id="btn-cerrar">Cerrar ventana
+
+				</button>
+
+				<!---<div id="tag">Recordaque este </div>-->
+
+			</div>
+
+		</dialog>
+
+
+
+		<dialog id="modal2">
+
+			<h2 class="popTitle">Te recomendamos:</h2>
+
+			<h2><span id="resultadoFin2"></span></h2>
+
+			<a id="enlace2" href="Perfiles2.html">Ver mas informacion</a>
+
+			<button id="btn-cerrar2">Cerrar ventana
+
+			</button>
+		</dialog>
+
+
+
+		<dialog id="modal3">
+
+			<h2 class="popTitle">Te recomendamos:</h2>
+
+			<h2><span id="resultadoFin3"></span></h2>
+
+			<a id="enlace3" href="Perfiles3.html">Ver mas informacion</a>
+
+			<button id="btn-cerrar3">Cerrar ventana
+
+			</button>
+		</dialog>
+
+		<dialog id="modal4">
+			<h2><span id="resultadoFin4">
+				</span></h2>
+
+
+
+
+
+			<button id="btn-cerrar4" role="link" onclick="window.location='Juego de ecuaciones.html'">Volver a
+				intentar.</button>
+			<a class="enlace" href="Juego de ecuaciones.html"></a>
+
+		</dialog>
+
+
+
+
+		<div class="esp1">
+			<h2 class="asig">electronica: <span id="resultado"></span></h2>
+
+			<div class="barra">
+				<div class="progreso"></div>
+			</div>
+
+		</div>
+
+
+		<div>
+			<h2 class="asig">electromecanica: <span id="resultado2"></span></h2>
+
+			<div>
+				<h2 class="asig">construcciones: <span id="resultado3"></span></h2>
+
+			</div>
+
+		</div>
+
+
+
+
+		<script src="script.js"></script>
+
+
+
+		<!--<footer>
+			<nav>
+				<ul>
+					<li><a href="index.html">Volver al inicio</a></li><br>
+					<li><a href="Juego de ecuaciones.html">Reiniciar Test</a></li><br>
+					<box-icon name='refresh'></box-icon>
+				</ul>
+				
+			</nav>
+		</footer>
+	-->
+
+		<section class="content sau"> 
+
+
+			<div class="btn-home">
+				<a href="index.html" class="btn">Volver al inicio
+				</a>
+				<a href="Juego de ecuaciones.html" class="btn">Reiniciar Test</a></div>
+			</div>
+		
+		</section>
+
+
+</body>
+
+</html>

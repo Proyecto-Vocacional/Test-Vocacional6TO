@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game</title>
+	<link rel="stylesheet" type="text/css" href="estilo3.css">
+	<link rel="shortcut icon" href="ESCUDO 1080x1080.png">
+</head>
+<body>
+      <header>
+      	<h1>QUIZ GAME</h1>
+      	<p>Aprendiendo la Constitución</p>
+      </header>
+      <div class="container">
+      	<section id="p0">
+      		<h3>1- ¿En qué tipo de ambiente te interesaria trabajar?</h3>
+      		<label>
+      			<input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Personal y calmado
+      		</label>
+      		<label>
+      			<input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Pesado y veloz
+      		</label>
+      		<label>
+      			<input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Regulado y Abierto
+      		</label>
+      	</section>
+      	<section id="p1">
+      		<h3>2- ¿Te resulta agradable hacer planos?</h3>
+      		<label>
+      			<input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Si
+      		</label>
+      		<label>
+      			<input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> No
+      		</label>
+      		<label>
+      			<input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Mas o Menos
+      		</label>
+      	</section>
+      	<section id="p2">
+      		<h3>3- ¿?</h3>
+      		<label>
+      			<input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> 1224,54
+      		</label>
+      		<label>
+      			<input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> 1501,32
+      		</label>
+      		<label>
+      			<input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> 1225,49
+      		</label>
+      	</section>
+      	<section id="p3">
+      		<h3>4- ¿Cuál la derivada de 3x^2+2x-3 ?</h3>
+      		<label class="a">
+      			<input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> 3x+2
+      		</label>
+      		<label>
+      			<input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> 6x+2
+      		</label>
+      		<label>
+      			<input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> 6x+2-3
+      		</label>
+      	</section>
+      	<button onclick="corregir()"> CORREGIR </button>
+      	<h2>Respuestas Correctas: <span id="resultado"></span></h2>
+      </div>
+
+	<script src="script2.js"></script> 
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html">inicio</a></li><br>
+				<li><a href="Constitucion.html">Reiniciar Juego</a></li><br>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
