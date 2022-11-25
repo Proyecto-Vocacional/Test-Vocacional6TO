@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Game</title>
+	<title>Test Vocacional</title>
 	<link rel="stylesheet" type="text/css" href="estilo2.css">
 	<link rel="shortcut icon" href="ESCUDO 1080x1080.png">
 </head>
@@ -24,19 +24,21 @@
 
 	</header>
 
+<img src="Test-Vocacional6TO-main\ESCUDO 1080x1080.png" alt="">
+
 	<div class="container">
 		<section id="p0">
 			<h3>1- ¿En qué tipo de ambiente te interesaria trabajar?</h3>
 
 			<label>
-				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Personal y calmado
+				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Personal y calmado (oficina)
 			</label>
 
 			<label>
-				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Pesado y veloz
+				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Pesado, ruidoso (fabrica-taller)
 			</label>
 			<label>
-				<input class="fea" type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Regulado y Abierto
+				<input class="fea" type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Regulado y Abierto (aire libre)
 			</label>
 		</section>
 		<section id="p1">
@@ -96,11 +98,11 @@
 		</section>
 
 		<section id="p5">
-			<h3>6- De chico/a¿Desarmabas tus juguetes?</h3>
-			<label>
+			<h3>6- De chico/a¿Te gustaba desarmar tus juguetes y ver qué había dentro de ellos?</h3>
+			<label class="xd">
 				<input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> si
 			</label>
-			<label>
+			<label class="xd">
 				<input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> no
 
 		</section>
@@ -116,7 +118,7 @@
 		</section>
 
 		<section id="p7">
-			<h3>8- ¿Qué hago bien?</h3>
+			<h3>8- ¿En cual de estas actividades crees te destacas?</h3>
 			<label>
 				<input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> editar videos y programas
 			</label>
@@ -157,6 +159,18 @@
 			</label>
 		</section>
 
+		<section id="p10">
+			<h3>11- ¿Qué imagen te interesa mas?</h3>
+			<label class="img">
+				<input type="radio" value="1" name="p10" onclick="respuesta(10,this)"> <img src="electronica op.jpeg" width="150" height="150">
+			</label>
+			<label class="img">
+				<input type="radio" value="2" name="p10" onclick="respuesta(10,this)"> <img src="construcciones op.jpeg" width="150" height="150">
+			</label>
+			<label class="img">
+				<input type="radio" value="3" name="p10" onclick="respuesta(10,this)"> <img src="electromecánica op.jpeg" width="150" height="150">
+			</label>
+		</section>
 		<!--<button onclick="corregir()" id="btn-abrir">
 			<span id="span1"></span>
 			<span id="span2"></span>
@@ -185,14 +199,14 @@
 
 				<h2><span id="resultadoFin"></span></h2>
 
-				<a id="enlace1" href="index.html">Ver mas informacion</a>
+				<a id="enlace1" href="/Perfiles.html">Ver mas informacion</a>
 
 
-				<button id="btn-cerrar">Cerrar popup
+				<button id="btn-cerrar">Cerrar ventana
 
 				</button>
 
-				<div id="tag">Recordaque este </div>
+				<!---<div id="tag">Recordaque este </div>-->
 
 			</div>
 
@@ -206,9 +220,9 @@
 
 			<h2><span id="resultadoFin2"></span></h2>
 
-			<a class="enlace" href="index.html">Ver mas informacion</a>
+			<a id="enlace2" href="/Perfiles2.html">Ver mas informacion</a>
 
-			<button id="btn-cerrar2">Cerrar popup
+			<button id="btn-cerrar2">Cerrar ventana
 
 			</button>
 		</dialog>
@@ -221,9 +235,9 @@
 
 			<h2><span id="resultadoFin3"></span></h2>
 
-			<a class="enlace" href="index.html">Ver mas informacion</a>
+			<a id="enlace3" href="/Perfiles3.html">Ver mas informacion</a>
 
-			<button id="btn-cerrar3">Cerrar popup
+			<button id="btn-cerrar3">Cerrar ventana
 
 			</button>
 		</dialog>
@@ -272,17 +286,28 @@
 
 
 
-		<footer>
+		<!--<footer>
 			<nav>
 				<ul>
-					<li><a href="index.html">inicio</a></li><br>
+					<li><a href="index.html">Volver al inicio</a></li><br>
 					<li><a href="Juego de ecuaciones.html">Reiniciar Test</a></li><br>
+					<box-icon name='refresh'></box-icon>
 				</ul>
+				
 			</nav>
 		</footer>
+	-->
+
+		<section class="content sau"> 
 
 
-
+			<div class="btn-home">
+				<a href="/index.html" class="btn">Volver al inicio
+				</a>
+				<a href="Juego de ecuaciones.html" class="btn">Reiniciar Test</a></div>
+			</div>
+		
+		</section>
 
 
 </body>

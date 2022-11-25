@@ -56,11 +56,11 @@ btnCerrar4.addEventListener("click",()=>{
 
 
 
-let correctasElec = [1,2,3,2,2,1,2,1,3,2];
+let correctasElec = [1,2,3,2,2,1,2,1,3,2,1];
 
-let correctasMec = [2,3,2,1,1,0,0,3,1,3];
+let correctasMec =  [2,3,2,1,1,0,0,3,1,3,3];
 
-let correctasCons = [3,1,1,3,3,0,1,2,2,1];
+let correctasCons = [3,1,1,3,3,0,1,2,2,1,2];
 
 let opcion_elegida = [];
 
@@ -125,9 +125,9 @@ function corregir(){
 	}
 
 	//////////////////////////
-	electronica = [(100*cantidad_correctasElec)/10];
-	mecanica = [(100*cantidad_correctasMec)/10];	
-	construcciones = [(100*cantidad_correctasCons)/10];	  
+	electronica = [(100*cantidad_correctasElec)/11];
+	mecanica = [(100*cantidad_correctasMec)/11];	
+	construcciones = [(100*cantidad_correctasCons)/11];	  
 	
 electronica2 = Math.trunc(electronica);
 mecanica2 = Math.trunc(mecanica);
@@ -135,7 +135,7 @@ construcciones2 = Math.trunc(construcciones);
 
 
 	////////////////////////
-	if(contador<10){
+	if(contador<11){
 		document.getElementById("resultadoFin4").innerHTML = "Primero realiza todas las preguntas porfavor :)";
 	boolean = 1;
 	Xsound.play();

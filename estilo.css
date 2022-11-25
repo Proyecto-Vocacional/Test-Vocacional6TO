@@ -1,66 +1,239 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-*{
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
-	
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
 }
-header{
-	width: 100%;
-    height: 700px;
-    background-image: url(headphone-desk-notebook-computer.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
-    color: #fff;
+
+body {
     text-align: center;
-}
-header .textos{
-	margin-top: 152px;
+    font-family: sans-serif;
 }
 
-header .titulo{
-	font-size: 85px;
-}
-
-header .subtitulo{
-font-size: 42px;
-font-weight: 300;
-margin-bottom: 32px;
-}
-
-.sesgoabajo {
-    
-    z-index: 10;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-width: 0 0 35vh 100vw;
-    border-style: solid;
-    border-color: transparent transparent #fff transparent;
-    
-
-}
-li{
+.head {
     display: flex;
-
-}
-img{
-    height: 100px;
-    width: 100px;
-}
-
-p{
-    float: left; 
-    max-width: 750px;
-	margin: auto;
-	padding: 20px;
-    max-width: justify;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
-/*body{
-    background-image: linear-gradient(to right,rgb(41, 31, 95),rgb(55, 46, 110),rgb(142, 130, 231));
+.logo .curso {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: sans-serif !important;
+    font-weight: 100;
+
 }
 
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(pistas.jpg) no-repeat center;
+    background-size: contain;
+    background-repeat: repeat-x
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px rgb(253, 250, 255);
+    color: #feffff;
+    text-shadow: 0 0 1px #50abd4,
+        0 0 0px #50abd4,
+        0 0 80px #50abd4;
+    background-color: #1010105b;
+    border-radius: 10px;
+}
+
+
+.title2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px rgb(253, 250, 255);
+    color: #feffff;
+    text-shadow: 0 0 1px #50abd4,
+        0 0 0px #50abd4,
+        0 0 80px #50abd4;
+
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#frase {
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #10101044;
+
+    color: #fd0dfd solid;
+    text-shadow: 0 0 10px #a945c7,
+        0 0 40px #a945c7,
+        0 0 80px #910aff;
+
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+    font-size: 30px;
+}
+
+.btn:hover {
+
+    box-shadow: 0 0 10px #a945c7,
+        0 0 40px #a945c7,
+        0 0 80px #910aff;
+    transition: 0.8s;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.sub {
+    margin: 35%;
+    color: white;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+}

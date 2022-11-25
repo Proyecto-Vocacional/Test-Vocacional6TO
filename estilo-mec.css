@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    /* box-sizing: border-box;*/
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+
+    text-align: center;
+    background: #000;
+    color: rgb(229, 255, 0);
+    padding: 100px 0;
+    background-image: url(/img/aurelien-romain-DB_q6rPFnBM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 0 10px grey,
+        0 0 40px grey,
+        0 0 80px grey;
+border-radius: 10px;
+}
+
+.container {
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    color: rgb(229, 255, 0);
+    text-shadow: 0 0 10px #458cc7,
+        0 0 40px #458cc7,
+        0 0 80px #458cc7;
+    font-size: 16px;
+
+}
+
+.contenedor {
+    text-align: justify;
+    max-width: 1050px;
+    margin: auto;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 10px;
+    word-spacing: 5px;
+    line-height: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px #1e1746,
+        0 0 40px #1e1746,
+        0 0 80px #1e1746;
+
+}
+
+body {
+
+    background-image: linear-gradient(rgb(142, 130, 231), rgb(41, 31, 95), rgb(41, 31, 95), rgb(41, 31, 95), rgb(41, 31, 95), rgb(142, 130, 231));
+
+}
+
+
+#ft .ini {
+    display: block;
+
+    font-size: 30px;
+    color: #458cc7;
+    text-shadow: 0 0 10px #458cc7,
+        0 0 40px #458cc7,
+        0 0 80px #458cc7;
+}
+
+
+
+
+.content {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 50px #1f1d1d,
+        0 0 40px #1f1d1d,
+        0 0 80px #1f1d1d;
+}
+
+
+.sau {
+    padding: 10px;
+    background: #1f1d1d;
+   
+}
+
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px rgb(253, 250, 255);
+    color: #feffff;
+    text-shadow: 0 0 1px #50abd4,
+        0 0 0px #50abd4,
+        0 0 80px #50abd4;
+    background-color: #1010105b;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+    font-size: 30px;
+}
+
+.btn:hover {
+
+    box-shadow: 0 0 10px #a945c7,
+        0 0 40px #a945c7,
+        0 0 80px #910aff;
+    transition: 0.4s;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
